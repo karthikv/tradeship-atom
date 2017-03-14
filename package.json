@@ -1,0 +1,23 @@
+{
+  "name": "tradeship-atom",
+  "main": "./lib/tradeship-atom",
+  "version": "0.0.1",
+  "description": "Automatically imports missing JavaScript dependencies and removes unused ones.",
+  "keywords": [
+    "atom",
+    "dependencies",
+    "javascript",
+    "js",
+    "tradeship"
+  ],
+  "repository": "https://github.com/karthikv/tradeship-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "prettier": "^0.22.0"
+  }
+}

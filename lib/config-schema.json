@@ -1,0 +1,32 @@
+{
+  "importOnSave": {
+    "title": "Import on Save",
+    "order": 1,
+    "type": "object",
+    "properties": {
+      "enabled": {
+        "title": "Enabled",
+        "description": "Automatically import dependencies on save",
+        "order": 1,
+        "type": "boolean",
+        "default": false
+      },
+      "scopes": {
+        "title": "Scopes",
+        "description": "Use `Editor: Log Cursor Scope` to determine the scopes for a file.",
+        "order": 2,
+        "type": "array",
+        "default": [
+          "source.js",
+          "source.jsx",
+          "source.js.jsx",
+          "source.babel",
+          "source.js-semantic"
+        ],
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

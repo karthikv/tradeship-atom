@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor[data-grammar='source js']": [
+      {
+        "label": "Import Dependencies",
+        "command": "tradeship-atom:import"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tradeship",
+          "submenu": [
+            {
+              "label": "Import Dependencies",
+              "command": "tradeship-atom:import"
+            },
+            {
+              "label": "Settings",
+              "command": "tradeship-atom:settings"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
