@@ -24,7 +24,7 @@ To run tradeship, you may either:
 - Right click > Import Dependencies
 - Packages > tradeship > Import Dependencies
 - To run on save, go to settings (Packages > tradeship > Settings) and enable
-  format on save.
+  import on save.
 
 The first time tradeship runs in a project directory with many JavaScript files,
 it'll take some time to parse and cache dependencies. Future runs will be much
