@@ -11,10 +11,10 @@ $ npm install -g tradeship
 $ yarn global add tradeship
 ```
 
-In atom, settings/preferences > install > search "tradeship-atom". Or:
+In atom, settings/preferences > install > search "tradeship". Or:
 
 ```sh
-$ apm install tradeship-atom
+$ apm install tradeship
 ```
 
 ## Usage

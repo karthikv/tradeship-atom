@@ -3,7 +3,7 @@
     "atom-text-editor[data-grammar='source js']": [
       {
         "label": "Import Dependencies",
-        "command": "tradeship-atom:import"
+        "command": "tradeship:import"
       }
     ]
   },
@@ -16,11 +16,11 @@
           "submenu": [
             {
               "label": "Import Dependencies",
-              "command": "tradeship-atom:import"
+              "command": "tradeship:import"
             },
             {
               "label": "Settings",
-              "command": "tradeship-atom:settings"
+              "command": "tradeship:settings"
             }
           ]
         }
