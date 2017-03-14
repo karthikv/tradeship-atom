@@ -1,7 +1,7 @@
 {
   "name": "tradeship",
   "main": "./lib/tradeship",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Automatically imports missing JavaScript dependencies and removes unused ones.",
   "keywords": [
     "atom",
