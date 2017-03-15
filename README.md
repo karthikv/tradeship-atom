@@ -1,6 +1,6 @@
 # Tradeship for Atom
 Atom package to run [tradeship](https://github.com/karthikv/tradeship), which
-automatically imports JS dependencies and removes unused ones.
+automatically imports missing JS dependencies and removes unused ones.
 
 ## Installation
 Ensure you have tradeship installed:
@@ -11,7 +11,7 @@ $ npm install -g tradeship
 $ yarn global add tradeship
 ```
 
-In atom, settings/preferences > install > search "tradeship". Or:
+In Atom, settings/preferences > install > search "tradeship". Or:
 
 ```sh
 $ apm install tradeship
